@@ -2018,7 +2018,7 @@
     ],
     "td": {
         "model": "atf-ndcpwlf",
-        "atf_path": "Blauth-new_york.atf.json.gz",
+        "atf_path": "sidecars/n=1000/Blauth-new_york.atf.json.gz",
         "atf_sha256": "7fc60cd36b883953f78b2bdc889aa6b2f00be184107fd8538552aca4b14da004"
     },
     "metadata": {

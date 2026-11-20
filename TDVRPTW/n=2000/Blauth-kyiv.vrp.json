@@ -4018,7 +4018,7 @@
     ],
     "td": {
         "model": "atf-ndcpwlf",
-        "atf_path": "Blauth-kyiv.atf.json.gz",
+        "atf_path": "sidecars/n=2000/Blauth-kyiv.atf.json.gz",
         "atf_sha256": "855687244efc58448cf540bc2a9e2ea0d49c01ebcc1b960efa44098117d37053"
     },
     "metadata": {

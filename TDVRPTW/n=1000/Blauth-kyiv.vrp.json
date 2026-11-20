@@ -2018,7 +2018,7 @@
     ],
     "td": {
         "model": "atf-ndcpwlf",
-        "atf_path": "Blauth-kyiv.atf.json.gz",
+        "atf_path": "sidecars/n=1000/Blauth-kyiv.atf.json.gz",
         "atf_sha256": "6ef5927c9ae6219601ba31b37db3d396120ca3694868c5b4f2cb9a631bb84861"
     },
     "metadata": {

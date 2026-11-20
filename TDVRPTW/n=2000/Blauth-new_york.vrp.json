@@ -4018,7 +4018,7 @@
     ],
     "td": {
         "model": "atf-ndcpwlf",
-        "atf_path": "Blauth-new_york.atf.json.gz",
+        "atf_path": "sidecars/n=2000/Blauth-new_york.atf.json.gz",
         "atf_sha256": "7040ce56a475c95d2aa468ed1e27a10d6c6f8fc2a47fdb230c9a8af92ce25e5a"
     },
     "metadata": {

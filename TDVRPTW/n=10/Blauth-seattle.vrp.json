@@ -38,7 +38,7 @@
     ],
     "td": {
         "model": "atf-ndcpwlf",
-        "atf_path": "Blauth-seattle.atf.json.gz",
+        "atf_path": "sidecars/n=10/Blauth-seattle.atf.json.gz",
         "atf_sha256": "0df9eade299e4b24f245bacd50c425869f38dbfd38d5379ec5b37c0f8fe18414"
     },
     "metadata": {

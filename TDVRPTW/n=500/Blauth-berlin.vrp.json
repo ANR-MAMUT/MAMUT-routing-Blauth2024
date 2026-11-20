@@ -1018,7 +1018,7 @@
     ],
     "td": {
         "model": "atf-ndcpwlf",
-        "atf_path": "Blauth-berlin.atf.json.gz",
+        "atf_path": "sidecars/n=500/Blauth-berlin.atf.json.gz",
         "atf_sha256": "4a4e387c3a1a7308def7b998d36a1a5869b8271dc6a3f5b8b0f0fbe8c5a02241"
     },
     "metadata": {

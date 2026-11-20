@@ -2018,7 +2018,7 @@
     ],
     "td": {
         "model": "atf-ndcpwlf",
-        "atf_path": "Blauth-nairobi.atf.json.gz",
+        "atf_path": "sidecars/n=1000/Blauth-nairobi.atf.json.gz",
         "atf_sha256": "6d19df18e07fee33e7240d0f523b3ed4f9963a3584b68bdbb980536b8edc5e37"
     },
     "metadata": {

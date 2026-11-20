@@ -1018,7 +1018,7 @@
     ],
     "td": {
         "model": "atf-ndcpwlf",
-        "atf_path": "Blauth-san_francisco.atf.json.gz",
+        "atf_path": "sidecars/n=500/Blauth-san_francisco.atf.json.gz",
         "atf_sha256": "7ddaaa7fc0ba668581e486a8616c6ffb4f7ca87b70bf24f9073d9606cc4d3260"
     },
     "metadata": {

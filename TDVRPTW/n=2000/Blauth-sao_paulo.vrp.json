@@ -4018,7 +4018,7 @@
     ],
     "td": {
         "model": "atf-ndcpwlf",
-        "atf_path": "Blauth-sao_paulo.atf.json.gz",
+        "atf_path": "sidecars/n=2000/Blauth-sao_paulo.atf.json.gz",
         "atf_sha256": "6b3ca7c2e94ddcd3f9e848ec0f1e73b16258ca5e2aa00ccfa3c95a367e0af27b"
     },
     "metadata": {

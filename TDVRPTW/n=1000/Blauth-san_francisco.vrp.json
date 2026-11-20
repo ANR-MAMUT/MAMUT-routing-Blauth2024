@@ -2018,7 +2018,7 @@
     ],
     "td": {
         "model": "atf-ndcpwlf",
-        "atf_path": "Blauth-san_francisco.atf.json.gz",
+        "atf_path": "sidecars/n=1000/Blauth-san_francisco.atf.json.gz",
         "atf_sha256": "42a9d9759dfe1e980ae54695497ab4dc0f5c9944d281891a2f8c7c0be195c167"
     },
     "metadata": {

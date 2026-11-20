@@ -38,7 +38,7 @@
     ],
     "td": {
         "model": "atf-ndcpwlf",
-        "atf_path": "Blauth-cincinnati.atf.json.gz",
+        "atf_path": "sidecars/n=10/Blauth-cincinnati.atf.json.gz",
         "atf_sha256": "941f650860fc6103cd3d76f61374058b3fec61ea1bc12d6d03d5a0f62bb9a86b"
     },
     "metadata": {

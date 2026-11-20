@@ -1018,7 +1018,7 @@
     ],
     "td": {
         "model": "atf-ndcpwlf",
-        "atf_path": "Blauth-london.atf.json.gz",
+        "atf_path": "sidecars/n=500/Blauth-london.atf.json.gz",
         "atf_sha256": "004ecd31901657a7f3ea5bd9841f203924d8050e6f4eaccafbc11b2fe22e6aa1"
     },
     "metadata": {
