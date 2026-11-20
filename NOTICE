@@ -1,0 +1,20 @@
+MAMUT-routing Blauth2024 third-party and data-license notice
+============================================================
+
+This repository holds the Blauth2024 benchmark family of MAMUT-routing (https://github.com/ANR-MAMUT/MAMUT-routing). MAMUT-routing is a mixed software and benchmark project. Its source code is MIT-licensed unless a file says otherwise. Benchmark data and generated artifacts are licensed at the benchmark-family level, and the LICENSE file of this repository gives the terms of this family.
+
+Component licensing
+-------------------
+
+- Blauth2024 (TDVRPTW): the instances, the arrival-time-function sidecars and the best-known-solution files are provided under CC BY-NC 4.0. They are a value-exact conversion of the delivery-only instances of the vrptdt-benchmark of Blauth et al., which carries the same licence because it incorporates Uber Movement speed data. Any use must be non-commercial and must attribute the original authors.
+
+Attribution
+-----------
+
+- Paper: Jannis Blauth, Stephan Held, Dirk Müller, Niklas Schlomberg, Vera Traub, Thorben Tröbst, Jens Vygen. "Vehicle routing with time-dependent travel times: Theory, practice, and benchmarks." Discrete Optimization 53 (2024), 100848. https://doi.org/10.1016/j.disopt.2024.100848
+- Upstream repository: https://gitlab.com/muelleratorunibonnde/vrptdt-benchmark
+- Archived dataset: bonndata, DOI 10.60507/FK2/X22BKR, https://doi.org/10.60507/FK2/X22BKR
+- Road networks: (c) OpenStreetMap contributors, Open Database License (ODbL), https://www.openstreetmap.org/copyright
+- Speed data: Uber Movement, CC BY-NC 3.0.
+
+Users redistributing this benchmark family, or a subset of it, should preserve this NOTICE and the README.md and LICENSE files of this repository.
