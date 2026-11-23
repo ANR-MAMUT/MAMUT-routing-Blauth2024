@@ -3,16 +3,49 @@
     "routes": [
         [4, 5, 8, 10, 6, 3, 2, 7, 1, 9]
     ],
-    "cost": 56273610.628274225,
+    "cost": 56273610.62827421,
     "metadata": {
         "authors": "Florian Rascoussier (0nyr)",
         "source": "kayros 1.2.0 TD-ILS (seed=1010, time_limit=600.0s)",
-        "validated_by": "mamut-routing-lib td FleetCostDuration checker",
+        "validated_by": "mamut-routing-lib",
         "date": "2026-07-27T14:41:21",
-        "validated_cost": 56273610.628274225,
+        "validated_cost": 56273610.62827421,
         "validated_num_routes": 1,
-        "route_durations": [20273610.628274225],
-        "route_departure_times": [56499873.371725775]
+        "route_durations": [20273610.62827421],
+        "route_departure_times": [56499873.37172579],
+        "standard": {
+            "profile": "td-binary64-exact-v1",
+            "objective": "FleetCostDuration",
+            "num_routes": 1,
+            "routes_sha256": "e8064eaaafd59e805fd28f0bc5f46ef157129f13646e310e49880af267dbf3a3",
+            "authoritative_cost": {
+                "numerator": "179054408819140346404291337785627524240540650492274067669458729",
+                "denominator": "3181853924425029508664522663594085879264499667142290200"
+            },
+            "display_overflow": false,
+            "evaluation": {
+                "checker": "mamut-routing-lib",
+                "backend": "cpp-gmp-compose",
+                "implementation_sha256": "e74c3cf2062d560ef164ff38b83135a20103a15bec639f3abd1d897508ed87c2",
+                "runtime": "CPython 3.12.12",
+                "verification_status": "incumbent-verified"
+            },
+            "route_evaluations": [
+                {
+                    "duration": {
+                        "numerator": "64507667539839284092368521896240432587018662475151620469458729",
+                        "denominator": "3181853924425029508664522663594085879264499667142290200"
+                    },
+                    "departure_time": {
+                        "numerator": "179774343817342928090615070184837502159320334488202321923598071",
+                        "denominator": "3181853924425029508664522663594085879264499667142290200"
+                    }
+                }
+            ],
+            "specification": "mamut-routing/0.1-review",
+            "benchmark_revision": "r1",
+            "manifest_sha256": "07349fdb1ffd0d482ff99b98dc1b5933c43178d860f10e95bda692042c5295fe"
+        }
     },
     "objective_function": "FleetCostDuration"
 }

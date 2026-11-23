@@ -7,12 +7,45 @@
     "metadata": {
         "authors": "Florian Rascoussier (0nyr)",
         "source": "kayros 1.2.0 TD-ILS (seed=1010, time_limit=600.0s)",
-        "validated_by": "mamut-routing-lib td FleetCostDuration checker",
+        "validated_by": "mamut-routing-lib",
         "date": "2026-07-27T14:41:21",
         "validated_cost": 50414847.04524514,
         "validated_num_routes": 1,
-        "route_durations": [14414847.04524514],
-        "route_departure_times": [59501867.266861334]
+        "route_durations": [14414847.045245145],
+        "route_departure_times": [59501867.266861334],
+        "standard": {
+            "profile": "td-binary64-exact-v1",
+            "objective": "FleetCostDuration",
+            "num_routes": 1,
+            "routes_sha256": "a98c87c890ba681225d4992978100f98e1461679554f1f0bcd83c95880eff253",
+            "authoritative_cost": {
+                "numerator": "103457236429373349187422721215515",
+                "denominator": "2052118423299488662172376"
+            },
+            "display_overflow": false,
+            "evaluation": {
+                "checker": "mamut-routing-lib",
+                "backend": "cpp-gmp-compose",
+                "implementation_sha256": "e74c3cf2062d560ef164ff38b83135a20103a15bec639f3abd1d897508ed87c2",
+                "runtime": "CPython 3.12.12",
+                "verification_status": "incumbent-verified"
+            },
+            "route_evaluations": [
+                {
+                    "duration": {
+                        "numerator": "29580973190591757349217185215515",
+                        "denominator": "2052118423299488662172376"
+                    },
+                    "departure_time": {
+                        "numerator": "32206889664038885151",
+                        "denominator": "541275276616"
+                    }
+                }
+            ],
+            "specification": "mamut-routing/0.1-review",
+            "benchmark_revision": "r1",
+            "manifest_sha256": "814e505ea186108257540534cc5e17245b460b88a6ac73db2e89d714405ac7cf"
+        }
     },
     "objective_function": "FleetCostDuration"
 }
