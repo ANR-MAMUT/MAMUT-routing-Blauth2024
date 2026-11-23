@@ -1,0 +1,227 @@
+{
+  "archive": {
+    "filename": "vrptdt-benchmark-main.tar.bz2",
+    "persistent_url": "https://doi.org/10.60507/FK2/X22BKR",
+    "repository_md5": "8577cdadb01da914d879b89b536e3496",
+    "sha256": "430465842455e00a81dea4bc76c29b419c3b1427bdbf79913571f79fa83e59cb",
+    "size": 5452745131,
+    "url": "https://bonndata.uni-bonn.de/api/access/datafile/5896"
+  },
+  "attribution_file": "LICENSE",
+  "authors": [
+    "Jannis Blauth",
+    "Stephan Held",
+    "Dirk Müller",
+    "Niklas Schlomberg",
+    "Vera Traub",
+    "Thorben Tröbst",
+    "Jens Vygen"
+  ],
+  "dataset": "BonnTour: benchmarks & solutions for vehicle routing with time-dependent travel times",
+  "doi": "10.60507/FK2/X22BKR",
+  "license": "CC-BY-NC-4.0",
+  "members": {
+    "berlin_1000.json": {
+      "member": "vrptdt-benchmark-main/instances/berlin_1000.json",
+      "sha256": "a725b73af76b5513d07e38fe5fd1fa2dacaaad3d3bef6f21520221c7409245c5",
+      "size": 198985
+    },
+    "berlin_1000_tt.json.bz2": {
+      "member": "vrptdt-benchmark-main/instances/berlin_1000_tt.json.bz2",
+      "sha256": "d9b0a18eaba3d94e46f7e0c1ffe197b02ca699bf0e6ef6682a0b1a1188ed9881",
+      "size": 101728825
+    },
+    "berlin_2000.json": {
+      "member": "vrptdt-benchmark-main/instances/berlin_2000.json",
+      "sha256": "99a38a45e7d9477ecd91f600a130a94a86e52add738c1915844a7db8e5edaefd",
+      "size": 399050
+    },
+    "berlin_2000_tt.json.bz2": {
+      "member": "vrptdt-benchmark-main/instances/berlin_2000_tt.json.bz2",
+      "sha256": "4c0694e96dcebb620bf90c24e8078ec8e51597d8dcd99423a7ca242a3b25d39b",
+      "size": 404037889
+    },
+    "cincinnati_1000.json": {
+      "member": "vrptdt-benchmark-main/instances/cincinnati_1000.json",
+      "sha256": "be9298609ab795adeeeb4b23afa25bf072dd669756a7f808d41960030039a13b",
+      "size": 199042
+    },
+    "cincinnati_1000_tt.json.bz2": {
+      "member": "vrptdt-benchmark-main/instances/cincinnati_1000_tt.json.bz2",
+      "sha256": "9943c885b1213747d8679636695b54e76adee1264c309edd20c80c8c2c9ddc7f",
+      "size": 95301218
+    },
+    "cincinnati_2000.json": {
+      "member": "vrptdt-benchmark-main/instances/cincinnati_2000.json",
+      "sha256": "ad90fe8d37876e740b95ec2fb088a56419523725c55914300c3dd9201c955214",
+      "size": 399084
+    },
+    "cincinnati_2000_tt.json.bz2": {
+      "member": "vrptdt-benchmark-main/instances/cincinnati_2000_tt.json.bz2",
+      "sha256": "99b91fa365e3ff65ec74af4df2c457115e10a4a7d4ccd2faafdae6bb2d9c3ddb",
+      "size": 366931240
+    },
+    "kyiv_1000.json": {
+      "member": "vrptdt-benchmark-main/instances/kyiv_1000.json",
+      "sha256": "abc23eeb601a536f6c26800c16d296e84fc14a1e9cba2e64ccd12fd380bb95ee",
+      "size": 198915
+    },
+    "kyiv_1000_tt.json.bz2": {
+      "member": "vrptdt-benchmark-main/instances/kyiv_1000_tt.json.bz2",
+      "sha256": "0c32fe3b07e7ee1d6efcee525bfa26c818a2be686c42008689dc3d0c9781e214",
+      "size": 95064164
+    },
+    "kyiv_2000.json": {
+      "member": "vrptdt-benchmark-main/instances/kyiv_2000.json",
+      "sha256": "ccbf57c58243b28367f94fd48d7316b1a91e0e423022529a1399fefa55860ed9",
+      "size": 398578
+    },
+    "kyiv_2000_tt.json.bz2": {
+      "member": "vrptdt-benchmark-main/instances/kyiv_2000_tt.json.bz2",
+      "sha256": "0d5171bf9f611fca31bb9ec7aa56d9c00035ae8a634b0d84cd07a0764985f68b",
+      "size": 377864003
+    },
+    "london_1000.json": {
+      "member": "vrptdt-benchmark-main/instances/london_1000.json",
+      "sha256": "70b2bd8aef62200c0070581606e1262c3d36f73735699359cab68dad70c88acd",
+      "size": 200875
+    },
+    "london_1000_tt.json.bz2": {
+      "member": "vrptdt-benchmark-main/instances/london_1000_tt.json.bz2",
+      "sha256": "768b75a7ba0e38b3d3a205c3f64c8d19b89469f4f4c49d4e14fb0b794d2cf626",
+      "size": 110899167
+    },
+    "london_2000.json": {
+      "member": "vrptdt-benchmark-main/instances/london_2000.json",
+      "sha256": "6eebc6315d66cb547a2781289d3e3057ade5538ebe5c1879eaa5aeb384b256b9",
+      "size": 402621
+    },
+    "london_2000_tt.json.bz2": {
+      "member": "vrptdt-benchmark-main/instances/london_2000_tt.json.bz2",
+      "sha256": "abf447dd45235a0396fcbe963d85d1b14b696fe573eafdec37ff3c3365aff61a",
+      "size": 440959970
+    },
+    "madrid_1000.json": {
+      "member": "vrptdt-benchmark-main/instances/madrid_1000.json",
+      "sha256": "67497b312c7d7ed8e8704a93eb246e5fdf28b9073a2882767ddeae810df314f7",
+      "size": 199708
+    },
+    "madrid_1000_tt.json.bz2": {
+      "member": "vrptdt-benchmark-main/instances/madrid_1000_tt.json.bz2",
+      "sha256": "4dd56f10a2023eafd0fafdd9a635c99646c2bcac8d073c33ba2714e40072f264",
+      "size": 102870045
+    },
+    "madrid_2000.json": {
+      "member": "vrptdt-benchmark-main/instances/madrid_2000.json",
+      "sha256": "0b841f6275dd88c431ca2e2caee4864dfecd8f07fe65960b345c2a7447f94bad",
+      "size": 400449
+    },
+    "madrid_2000_tt.json.bz2": {
+      "member": "vrptdt-benchmark-main/instances/madrid_2000_tt.json.bz2",
+      "sha256": "45f70ae61959bcac4ad944a1519c4852f0743699c0cf2197d6511e6027192b75",
+      "size": 407262235
+    },
+    "nairobi_1000.json": {
+      "member": "vrptdt-benchmark-main/instances/nairobi_1000.json",
+      "sha256": "fc178a607b8ada738099f8801f803bcb112e9e3709ce2edcfc270a11af6bde7e",
+      "size": 200002
+    },
+    "nairobi_1000_tt.json.bz2": {
+      "member": "vrptdt-benchmark-main/instances/nairobi_1000_tt.json.bz2",
+      "sha256": "20a93d5c86d25f57b36321fe5bc35efa29e6f714f4fbdd85a87796f31c2bb201",
+      "size": 110498410
+    },
+    "nairobi_2000.json": {
+      "member": "vrptdt-benchmark-main/instances/nairobi_2000.json",
+      "sha256": "101d3af2f0b02acd0064576476d0808acf3a15c7e399821566ebd773102600e0",
+      "size": 400945
+    },
+    "nairobi_2000_tt.json.bz2": {
+      "member": "vrptdt-benchmark-main/instances/nairobi_2000_tt.json.bz2",
+      "sha256": "58efa38b815f9128c4fd13a61dbf734789799d55935009c2b6ba259ee7f821a7",
+      "size": 414246910
+    },
+    "new_york_1000.json": {
+      "member": "vrptdt-benchmark-main/instances/new_york_1000.json",
+      "sha256": "f5a75cbac68259bc32de6dc06d15b68b84f090d3a4bf3191fef99b9c0ee68077",
+      "size": 199079
+    },
+    "new_york_1000_tt.json.bz2": {
+      "member": "vrptdt-benchmark-main/instances/new_york_1000_tt.json.bz2",
+      "sha256": "d375b787098f724af23adef7e61b7eecd947208cc82af8c16d8683ca349dc78f",
+      "size": 106110647
+    },
+    "new_york_2000.json": {
+      "member": "vrptdt-benchmark-main/instances/new_york_2000.json",
+      "sha256": "e990aae9e4e7decc1ba532ad124f14f0406f9e53b6376951d5eafed0529c1710",
+      "size": 399146
+    },
+    "new_york_2000_tt.json.bz2": {
+      "member": "vrptdt-benchmark-main/instances/new_york_2000_tt.json.bz2",
+      "sha256": "a1b4b3a87df097d2ba2686a537dda571a60e375070df4c2d61384a24265f1547",
+      "size": 421959118
+    },
+    "san_francisco_1000.json": {
+      "member": "vrptdt-benchmark-main/instances/san_francisco_1000.json",
+      "sha256": "110fbc39b1fb41fe17634ca5723e8605692c1657d203c3e2772c6a4ad2c71616",
+      "size": 200107
+    },
+    "san_francisco_1000_tt.json.bz2": {
+      "member": "vrptdt-benchmark-main/instances/san_francisco_1000_tt.json.bz2",
+      "sha256": "26b313d0a9d17cb28942d7b32c6108fe18f748e1f147f962f8e555d91f6bce06",
+      "size": 119687123
+    },
+    "san_francisco_2000.json": {
+      "member": "vrptdt-benchmark-main/instances/san_francisco_2000.json",
+      "sha256": "66256f436018e0010f9a7a6e07351c48313aeb27013b064663b8923649df33ff",
+      "size": 401147
+    },
+    "san_francisco_2000_tt.json.bz2": {
+      "member": "vrptdt-benchmark-main/instances/san_francisco_2000_tt.json.bz2",
+      "sha256": "ca3ea2cc9e63f0486fe5935b0ad357281b70eee64f7cd35ebe9691b403de3503",
+      "size": 417249224
+    },
+    "sao_paulo_1000.json": {
+      "member": "vrptdt-benchmark-main/instances/sao_paulo_1000.json",
+      "sha256": "433a71578c15bafeaf19d9fe7478a6674fc61a675fde22998240066e034b10fe",
+      "size": 200867
+    },
+    "sao_paulo_1000_tt.json.bz2": {
+      "member": "vrptdt-benchmark-main/instances/sao_paulo_1000_tt.json.bz2",
+      "sha256": "94b86d8f0c38ed164ac6ae63f49c3dfb30876f9c784cc792d6655869474f5d22",
+      "size": 108390592
+    },
+    "sao_paulo_2000.json": {
+      "member": "vrptdt-benchmark-main/instances/sao_paulo_2000.json",
+      "sha256": "2d2166144a056f3c3f511b2adf496e572949c24650dbdd94aff4f1130bed120b",
+      "size": 402671
+    },
+    "sao_paulo_2000_tt.json.bz2": {
+      "member": "vrptdt-benchmark-main/instances/sao_paulo_2000_tt.json.bz2",
+      "sha256": "a967da170a5d6837ef287c9f3a14a06ab9d318b39c9c5333746fdafcb90faf19",
+      "size": 430027982
+    },
+    "seattle_1000.json": {
+      "member": "vrptdt-benchmark-main/instances/seattle_1000.json",
+      "sha256": "49578d8636e3539b25ae43eef122b6d54021f546f9946c393b1c0aff7986b67d",
+      "size": 200068
+    },
+    "seattle_1000_tt.json.bz2": {
+      "member": "vrptdt-benchmark-main/instances/seattle_1000_tt.json.bz2",
+      "sha256": "1f0fb7b89b4216b8cca9d42e644679c41d40e88cb2a4985cbf069745f8c0e0df",
+      "size": 96442598
+    },
+    "seattle_2000.json": {
+      "member": "vrptdt-benchmark-main/instances/seattle_2000.json",
+      "sha256": "a2a88dea144b6bc1645d1f8fb7aa4e4696a721b1e688ce31c7e031f7d4fb768a",
+      "size": 401133
+    },
+    "seattle_2000_tt.json.bz2": {
+      "member": "vrptdt-benchmark-main/instances/seattle_2000_tt.json.bz2",
+      "sha256": "1df25c43d99a8dc2546fe8499a1337df986925b17a15140494fb97994083fb1c",
+      "size": 382842243
+    }
+  },
+  "publisher": "bonndata",
+  "version": "1"
+}

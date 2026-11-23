@@ -1,0 +1,170 @@
+{
+  "family": "Blauth2024",
+  "archive": {
+    "path": ".mamut/artifacts/e19ffc08460cf01a54049d4569a77e3b848f93b9cd9a69d408ba34f62f03ba43/Blauth2024-r1-original-bks.tar.gz",
+    "scope": "file",
+    "sha256": "e19ffc08460cf01a54049d4569a77e3b848f93b9cd9a69d408ba34f62f03ba43"
+  },
+  "members": [
+    {
+      "path": "TDVRPTW/n=10/Blauth-berlin.bks.FleetCostDuration.json",
+      "sha256": "a1ff83e00498edf4e2f5d2b19cbc6e4fe184fdd06e700e5e59fad26ed8079b41"
+    },
+    {
+      "path": "TDVRPTW/n=10/Blauth-cincinnati.bks.FleetCostDuration.json",
+      "sha256": "d0592b1f112d819ab4c779571b07eec154feb70702b0e7ef5ae714c17abf1d82"
+    },
+    {
+      "path": "TDVRPTW/n=10/Blauth-kyiv.bks.FleetCostDuration.json",
+      "sha256": "074f04b64c6c25ce1beb514707230aab551822686f02cfef31249f62cdc6f5dc"
+    },
+    {
+      "path": "TDVRPTW/n=10/Blauth-london.bks.FleetCostDuration.json",
+      "sha256": "387bc03e7a29a90937dcd4e904c78a13bb2d212a87aff4c97bf998817d512bb9"
+    },
+    {
+      "path": "TDVRPTW/n=10/Blauth-madrid.bks.FleetCostDuration.json",
+      "sha256": "eff9ebb041a324a892a58b8289d663768c14662b8deb78c667d78ef714638f0c"
+    },
+    {
+      "path": "TDVRPTW/n=10/Blauth-nairobi.bks.FleetCostDuration.json",
+      "sha256": "d98f1d003d546088fede634b7848fb494dcccfe9cffbcf32f0f5bd025dd8a1fd"
+    },
+    {
+      "path": "TDVRPTW/n=10/Blauth-new_york.bks.FleetCostDuration.json",
+      "sha256": "aeb0bc5f7c8a76814a692c069f20aced6c373a24109e3cf612e42482658510ae"
+    },
+    {
+      "path": "TDVRPTW/n=10/Blauth-san_francisco.bks.FleetCostDuration.json",
+      "sha256": "e2d0de858e63344816aeb7bd7f7eaaf5393f0f991fe411db3ea6c2419a362839"
+    },
+    {
+      "path": "TDVRPTW/n=10/Blauth-sao_paulo.bks.FleetCostDuration.json",
+      "sha256": "e369beacc7ee38f27b1593ae94475ee4d3db45751d396a65ca807adc9562b3ba"
+    },
+    {
+      "path": "TDVRPTW/n=10/Blauth-seattle.bks.FleetCostDuration.json",
+      "sha256": "0cca0a9e4671ad92c3e46e6029ad21c557c49cfb341a7c282c65affadbc2d6aa"
+    },
+    {
+      "path": "TDVRPTW/n=1000/Blauth-berlin.bks.FleetCostDuration.json",
+      "sha256": "294035fbb4eea9d78e7812c9850839eee49e6317183b52a681091d1490ee27a4"
+    },
+    {
+      "path": "TDVRPTW/n=1000/Blauth-cincinnati.bks.FleetCostDuration.json",
+      "sha256": "d47815d9257a4d00f1156c85019285d638ca1984a4526bc0d4c26c7a7b8355d0"
+    },
+    {
+      "path": "TDVRPTW/n=1000/Blauth-kyiv.bks.FleetCostDuration.json",
+      "sha256": "0b98bef05185a3042724faa14915e5c2f2dbd8b66ac31aeccc484cbfbfbffbe2"
+    },
+    {
+      "path": "TDVRPTW/n=1000/Blauth-london.bks.FleetCostDuration.json",
+      "sha256": "abd6436eac9943f35002decfa942b0fa85e0678ae8f1fd08215010e83967fd0c"
+    },
+    {
+      "path": "TDVRPTW/n=1000/Blauth-madrid.bks.FleetCostDuration.json",
+      "sha256": "68c13dc6b6937ddd71f8da34103712e0c3e83bd1a548b84ef2355075d5c674eb"
+    },
+    {
+      "path": "TDVRPTW/n=1000/Blauth-nairobi.bks.FleetCostDuration.json",
+      "sha256": "adf783385d12b9ce577d03b3ec338d5ad4ecf90d75506c9a45c566d5d6b0a1e0"
+    },
+    {
+      "path": "TDVRPTW/n=1000/Blauth-new_york.bks.FleetCostDuration.json",
+      "sha256": "8fefa0c07e59d050ffed8ad2ea8006e1020b50977d2792e894f0b064afd0b506"
+    },
+    {
+      "path": "TDVRPTW/n=1000/Blauth-san_francisco.bks.FleetCostDuration.json",
+      "sha256": "374bceda40e669a5d5bbbbb711487dce1e64c795f522341072f482c490c1444a"
+    },
+    {
+      "path": "TDVRPTW/n=1000/Blauth-sao_paulo.bks.FleetCostDuration.json",
+      "sha256": "ee5262b36243442a2ecee45afe69bd03fa9ec9be86e5e834c85ca3e86f9a6708"
+    },
+    {
+      "path": "TDVRPTW/n=1000/Blauth-seattle.bks.FleetCostDuration.json",
+      "sha256": "cf98fad8b9e914e681dfbb665029692f89056cb6728c6c32911a863d9757d7d8"
+    },
+    {
+      "path": "TDVRPTW/n=2000/Blauth-berlin.bks.FleetCostDuration.json",
+      "sha256": "7a03fedb62397aef1c7f4ea640161545f1ee96f175822c3a81d663a04957d196"
+    },
+    {
+      "path": "TDVRPTW/n=2000/Blauth-cincinnati.bks.FleetCostDuration.json",
+      "sha256": "1d8c4d8b2e7dd71770d2071276bc66156de56802feefcf92923debf448a35f64"
+    },
+    {
+      "path": "TDVRPTW/n=2000/Blauth-kyiv.bks.FleetCostDuration.json",
+      "sha256": "8ece73cc550578094ac49ebb51cdad5c7b4b1e56366ea3c92fb3ccb3f36f8c56"
+    },
+    {
+      "path": "TDVRPTW/n=2000/Blauth-london.bks.FleetCostDuration.json",
+      "sha256": "24abae79128aae0b16d702dcf701c0d21c20963c59f57f0a50b8e570278c8b8f"
+    },
+    {
+      "path": "TDVRPTW/n=2000/Blauth-madrid.bks.FleetCostDuration.json",
+      "sha256": "0a5e15a55f168e6d4101379afc937d36e4829e0b9fc97626a685f96ea35ab223"
+    },
+    {
+      "path": "TDVRPTW/n=2000/Blauth-nairobi.bks.FleetCostDuration.json",
+      "sha256": "1ac6b93a997600314142f82d63e4d6f0a92aecb5a33eafc12634ef7f241fd9f0"
+    },
+    {
+      "path": "TDVRPTW/n=2000/Blauth-new_york.bks.FleetCostDuration.json",
+      "sha256": "a888586a6347608844323f9f5244419940cc3004a2b8bcdd78622c3069f70685"
+    },
+    {
+      "path": "TDVRPTW/n=2000/Blauth-san_francisco.bks.FleetCostDuration.json",
+      "sha256": "383a364f4b4a7c2ee70166ce1c29f6a4a7f57a74de8523f320e33fd1858c1cb3"
+    },
+    {
+      "path": "TDVRPTW/n=2000/Blauth-sao_paulo.bks.FleetCostDuration.json",
+      "sha256": "03736fc1a2f148d3af0a549ae0379628eccf297fdc0eb045b4e4af75be80c50f"
+    },
+    {
+      "path": "TDVRPTW/n=2000/Blauth-seattle.bks.FleetCostDuration.json",
+      "sha256": "c7d3ed057896be588bd72304efaf7be9c672ef76c1dfcd618e5dea0d2aef2452"
+    },
+    {
+      "path": "TDVRPTW/n=500/Blauth-berlin.bks.FleetCostDuration.json",
+      "sha256": "c73c24870ed85eda596bf5da3dcd2d28eac67b02f1d62f81c9d8c27467c1f837"
+    },
+    {
+      "path": "TDVRPTW/n=500/Blauth-cincinnati.bks.FleetCostDuration.json",
+      "sha256": "e4db0d878cadb707384b81aa9669783d31cb656a0400266b6c964d59969557bc"
+    },
+    {
+      "path": "TDVRPTW/n=500/Blauth-kyiv.bks.FleetCostDuration.json",
+      "sha256": "9e455320080abac19e0005d70977d4e82d64f1765245ca27b0f41caa452723c0"
+    },
+    {
+      "path": "TDVRPTW/n=500/Blauth-london.bks.FleetCostDuration.json",
+      "sha256": "ef04fda0e0c132714714c70b36fa61d331821a84808a80caca555b65dab5283d"
+    },
+    {
+      "path": "TDVRPTW/n=500/Blauth-madrid.bks.FleetCostDuration.json",
+      "sha256": "e8758aa1efe4e5c0f7a0630e76bf829547c5013da9e9f0e98e0a28db7975676b"
+    },
+    {
+      "path": "TDVRPTW/n=500/Blauth-nairobi.bks.FleetCostDuration.json",
+      "sha256": "a93d2e77d584e6bba7c1689ced19a433e629bf16174a803c8602f72c8afe1b6d"
+    },
+    {
+      "path": "TDVRPTW/n=500/Blauth-new_york.bks.FleetCostDuration.json",
+      "sha256": "cf3d4456d090011cd4a2bf8978e1a9affeb76ee9a69dd58360c83aeb4f65e827"
+    },
+    {
+      "path": "TDVRPTW/n=500/Blauth-san_francisco.bks.FleetCostDuration.json",
+      "sha256": "da189157705ac51663c7b26c972f371b14760e2841a42181fa68361c0460b974"
+    },
+    {
+      "path": "TDVRPTW/n=500/Blauth-sao_paulo.bks.FleetCostDuration.json",
+      "sha256": "de0d014d6839f93cb7ae5056ab8a0af07c95c444dfdd347bd9c4bb37c58d521f"
+    },
+    {
+      "path": "TDVRPTW/n=500/Blauth-seattle.bks.FleetCostDuration.json",
+      "sha256": "9e519f01b1cfab1663a64f015a762990f48a7ea4b42df0d097656fb1081452dd"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "benchmark_revision": "r1",
+  "default_profile": "td-binary64-exact-v1",
+  "family": "Blauth2024",
+  "features": [
+    "single-depot",
+    "homogeneous-capacity",
+    "mandatory-visits",
+    "time-dependent-travel",
+    "service-start-windows",
+    "fixed-vehicle-charge"
+  ],
+  "instance": {
+    "path": "TDVRPTW/n=2000/Blauth-kyiv.vrp.json",
+    "sha256": "6f4f96fdefccbd0a05c03d7ed905e684fe002645354bea50c922ef8452f03caa"
+  },
+  "instance_name": "Blauth-kyiv",
+  "materialization": {
+    "atf_stream_sha256": "23bd95430e1573d9e62c9ed6d807a7f59389753e0937ef857164e15853b9e52a",
+    "canonical_atf_sha256": "855687244efc58448cf540bc2a9e2ea0d49c01ebcc1b960efa44098117d37053",
+    "interpretation": "binary64",
+    "kind": "regenerated",
+    "recipe": {
+      "artifacts": [
+        {
+          "path": ".mamut/artifacts/74fb885fc3b76dcd3ac65cb0b75b0086b89f976d422ea6a9fd398e6d10d2d828/mamut_routing_lib-0.13.0.dev0.tar.gz",
+          "scope": "file",
+          "sha256": "74fb885fc3b76dcd3ac65cb0b75b0086b89f976d422ea6a9fd398e6d10d2d828"
+        },
+        {
+          "path": ".mamut/artifacts/b829e5366f94c6810db090671d2a546cdc06079bf972ee2282f718def94cb9ba/mamut_routing_lib-0.13.0.dev0-cp312-cp312-linux_x86_64.whl",
+          "scope": "file",
+          "sha256": "b829e5366f94c6810db090671d2a546cdc06079bf972ee2282f718def94cb9ba"
+        },
+        {
+          "path": ".mamut/artifacts/f680f47372674ed236bb70fe507eb7aec7bd829dd1001212cf50b452ce80442f/mamut-routing-tools-source.tar.gz",
+          "scope": "file",
+          "sha256": "f680f47372674ed236bb70fe507eb7aec7bd829dd1001212cf50b452ce80442f"
+        },
+        {
+          "path": ".mamut/artifacts/75f09b78c3ca928b70c02c68844ab3629bed22fe63b1a69435ff71490fb8aee7/mamut_routing_tools-0.7.0.dev0-py3-none-any.whl",
+          "scope": "file",
+          "sha256": "75f09b78c3ca928b70c02c68844ab3629bed22fe63b1a69435ff71490fb8aee7"
+        },
+        {
+          "path": ".mamut/artifacts/21efc05188bca2b25987b5bd302a87169680b8aa234daa6e77b73e6c1c457197/materialization-environment-linux-x86_64.json",
+          "scope": "file",
+          "sha256": "21efc05188bca2b25987b5bd302a87169680b8aa234daa6e77b73e6c1c457197"
+        },
+        {
+          "path": ".mamut/artifacts/5422d97e42fbe65ca63877aeb5158eb9745e2e462eb70f68ea843520f0501a66/Blauth2024-bonndata-v1.json",
+          "scope": "file",
+          "sha256": "5422d97e42fbe65ca63877aeb5158eb9745e2e462eb70f68ea843520f0501a66"
+        }
+      ],
+      "callable": "mamut_routing_tools.conversion.blauth2024.convert_instance",
+      "parameters": {
+        "city": "kyiv",
+        "n": 2000,
+        "output_decompressed_sha256": "855687244efc58448cf540bc2a9e2ea0d49c01ebcc1b960efa44098117d37053",
+        "output_path": "sidecars/n=2000/Blauth-kyiv.atf.json.gz",
+        "output_root": ".",
+        "upstream_commit_from": "metadata.generator.upstream_commit",
+        "upstream_files": [
+          {
+            "archive_member": "vrptdt-benchmark-main/instances/kyiv_2000.json",
+            "path": "instances/kyiv_2000.json",
+            "scope": "file",
+            "sha256": "ccbf57c58243b28367f94fd48d7316b1a91e0e423022529a1399fefa55860ed9",
+            "uri": "https://bonndata.uni-bonn.de/api/access/datafile/5896"
+          },
+          {
+            "archive_member": "vrptdt-benchmark-main/instances/kyiv_2000_tt.json.bz2",
+            "path": "instances/kyiv_2000_tt.json.bz2",
+            "scope": "file",
+            "sha256": "0d5171bf9f611fca31bb9ec7aa56d9c00035ae8a634b0d84cd07a0764985f68b",
+            "uri": "https://bonndata.uni-bonn.de/api/access/datafile/5896"
+          }
+        ],
+        "upstream_root": ".mamut/external/vrptdt-benchmark"
+      }
+    }
+  },
+  "objective": "FleetCostDuration",
+  "problem": "TDVRPTW",
+  "sidecars": [],
+  "specification": "mamut-routing/0.1-review",
+  "units": {
+    "cost": "millisecond",
+    "time": "millisecond"
+  }
+}

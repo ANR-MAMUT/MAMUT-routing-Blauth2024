@@ -1,0 +1,38 @@
+{
+  "benchmark_revision": "r1",
+  "default_profile": "td-binary64-exact-v1",
+  "family": "Blauth2024",
+  "features": [
+    "single-depot",
+    "homogeneous-capacity",
+    "mandatory-visits",
+    "time-dependent-travel",
+    "service-start-windows",
+    "fixed-vehicle-charge"
+  ],
+  "instance": {
+    "path": "TDVRPTW/n=500/Blauth-berlin.vrp.json",
+    "sha256": "0f47db63a4df214085a072add4b2eb9b43045119aa8aa034e5048e5c86ee05d7"
+  },
+  "instance_name": "Blauth-berlin",
+  "materialization": {
+    "atf_stream_sha256": "d958fec252ee15db5605d11b436c198afb9a9a1beaa05472e17abadd7240403a",
+    "canonical_atf_sha256": "4a4e387c3a1a7308def7b998d36a1a5869b8271dc6a3f5b8b0f0fbe8c5a02241",
+    "interpretation": "binary64",
+    "kind": "stored-atf"
+  },
+  "objective": "FleetCostDuration",
+  "problem": "TDVRPTW",
+  "sidecars": [
+    {
+      "path": "sidecars/n=500/Blauth-berlin.atf.json.gz",
+      "scope": "decompressed",
+      "sha256": "4a4e387c3a1a7308def7b998d36a1a5869b8271dc6a3f5b8b0f0fbe8c5a02241"
+    }
+  ],
+  "specification": "mamut-routing/0.1-review",
+  "units": {
+    "cost": "millisecond",
+    "time": "millisecond"
+  }
+}

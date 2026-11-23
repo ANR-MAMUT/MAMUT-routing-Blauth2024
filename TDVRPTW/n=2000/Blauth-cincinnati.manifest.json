@@ -1,0 +1,92 @@
+{
+  "benchmark_revision": "r1",
+  "default_profile": "td-binary64-exact-v1",
+  "family": "Blauth2024",
+  "features": [
+    "single-depot",
+    "homogeneous-capacity",
+    "mandatory-visits",
+    "time-dependent-travel",
+    "service-start-windows",
+    "fixed-vehicle-charge"
+  ],
+  "instance": {
+    "path": "TDVRPTW/n=2000/Blauth-cincinnati.vrp.json",
+    "sha256": "7e356cd733e272d2fd7914e0f10c27d646160bf08657c9348c7720240765cd17"
+  },
+  "instance_name": "Blauth-cincinnati",
+  "materialization": {
+    "atf_stream_sha256": "3f0d2172bb7157d030b787459ca07817359509da62575c98fec0050e1b700480",
+    "canonical_atf_sha256": "66d02cad2b09d5b274475cfb3c35275aa126ad0df75a52fadfb0d4f8926f48fe",
+    "interpretation": "binary64",
+    "kind": "regenerated",
+    "recipe": {
+      "artifacts": [
+        {
+          "path": ".mamut/artifacts/74fb885fc3b76dcd3ac65cb0b75b0086b89f976d422ea6a9fd398e6d10d2d828/mamut_routing_lib-0.13.0.dev0.tar.gz",
+          "scope": "file",
+          "sha256": "74fb885fc3b76dcd3ac65cb0b75b0086b89f976d422ea6a9fd398e6d10d2d828"
+        },
+        {
+          "path": ".mamut/artifacts/b829e5366f94c6810db090671d2a546cdc06079bf972ee2282f718def94cb9ba/mamut_routing_lib-0.13.0.dev0-cp312-cp312-linux_x86_64.whl",
+          "scope": "file",
+          "sha256": "b829e5366f94c6810db090671d2a546cdc06079bf972ee2282f718def94cb9ba"
+        },
+        {
+          "path": ".mamut/artifacts/f680f47372674ed236bb70fe507eb7aec7bd829dd1001212cf50b452ce80442f/mamut-routing-tools-source.tar.gz",
+          "scope": "file",
+          "sha256": "f680f47372674ed236bb70fe507eb7aec7bd829dd1001212cf50b452ce80442f"
+        },
+        {
+          "path": ".mamut/artifacts/75f09b78c3ca928b70c02c68844ab3629bed22fe63b1a69435ff71490fb8aee7/mamut_routing_tools-0.7.0.dev0-py3-none-any.whl",
+          "scope": "file",
+          "sha256": "75f09b78c3ca928b70c02c68844ab3629bed22fe63b1a69435ff71490fb8aee7"
+        },
+        {
+          "path": ".mamut/artifacts/21efc05188bca2b25987b5bd302a87169680b8aa234daa6e77b73e6c1c457197/materialization-environment-linux-x86_64.json",
+          "scope": "file",
+          "sha256": "21efc05188bca2b25987b5bd302a87169680b8aa234daa6e77b73e6c1c457197"
+        },
+        {
+          "path": ".mamut/artifacts/5422d97e42fbe65ca63877aeb5158eb9745e2e462eb70f68ea843520f0501a66/Blauth2024-bonndata-v1.json",
+          "scope": "file",
+          "sha256": "5422d97e42fbe65ca63877aeb5158eb9745e2e462eb70f68ea843520f0501a66"
+        }
+      ],
+      "callable": "mamut_routing_tools.conversion.blauth2024.convert_instance",
+      "parameters": {
+        "city": "cincinnati",
+        "n": 2000,
+        "output_decompressed_sha256": "66d02cad2b09d5b274475cfb3c35275aa126ad0df75a52fadfb0d4f8926f48fe",
+        "output_path": "sidecars/n=2000/Blauth-cincinnati.atf.json.gz",
+        "output_root": ".",
+        "upstream_commit_from": "metadata.generator.upstream_commit",
+        "upstream_files": [
+          {
+            "archive_member": "vrptdt-benchmark-main/instances/cincinnati_2000.json",
+            "path": "instances/cincinnati_2000.json",
+            "scope": "file",
+            "sha256": "ad90fe8d37876e740b95ec2fb088a56419523725c55914300c3dd9201c955214",
+            "uri": "https://bonndata.uni-bonn.de/api/access/datafile/5896"
+          },
+          {
+            "archive_member": "vrptdt-benchmark-main/instances/cincinnati_2000_tt.json.bz2",
+            "path": "instances/cincinnati_2000_tt.json.bz2",
+            "scope": "file",
+            "sha256": "99b91fa365e3ff65ec74af4df2c457115e10a4a7d4ccd2faafdae6bb2d9c3ddb",
+            "uri": "https://bonndata.uni-bonn.de/api/access/datafile/5896"
+          }
+        ],
+        "upstream_root": ".mamut/external/vrptdt-benchmark"
+      }
+    }
+  },
+  "objective": "FleetCostDuration",
+  "problem": "TDVRPTW",
+  "sidecars": [],
+  "specification": "mamut-routing/0.1-review",
+  "units": {
+    "cost": "millisecond",
+    "time": "millisecond"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "benchmark_revision": "r1",
+  "default_profile": "td-binary64-exact-v1",
+  "family": "Blauth2024",
+  "features": [
+    "single-depot",
+    "homogeneous-capacity",
+    "mandatory-visits",
+    "time-dependent-travel",
+    "service-start-windows",
+    "fixed-vehicle-charge"
+  ],
+  "instance": {
+    "path": "TDVRPTW/n=2000/Blauth-sao_paulo.vrp.json",
+    "sha256": "e9d5d098a1e4f1c7540615b1c6163f45d8a1f9d534b059997580efa54c5e8305"
+  },
+  "instance_name": "Blauth-sao_paulo",
+  "materialization": {
+    "atf_stream_sha256": "84c3190bdf5a338f84295dd91ba8618602b3e7d23bc955a93b5679b55fce0a74",
+    "canonical_atf_sha256": "6b3ca7c2e94ddcd3f9e848ec0f1e73b16258ca5e2aa00ccfa3c95a367e0af27b",
+    "interpretation": "binary64",
+    "kind": "regenerated",
+    "recipe": {
+      "artifacts": [
+        {
+          "path": ".mamut/artifacts/74fb885fc3b76dcd3ac65cb0b75b0086b89f976d422ea6a9fd398e6d10d2d828/mamut_routing_lib-0.13.0.dev0.tar.gz",
+          "scope": "file",
+          "sha256": "74fb885fc3b76dcd3ac65cb0b75b0086b89f976d422ea6a9fd398e6d10d2d828"
+        },
+        {
+          "path": ".mamut/artifacts/b829e5366f94c6810db090671d2a546cdc06079bf972ee2282f718def94cb9ba/mamut_routing_lib-0.13.0.dev0-cp312-cp312-linux_x86_64.whl",
+          "scope": "file",
+          "sha256": "b829e5366f94c6810db090671d2a546cdc06079bf972ee2282f718def94cb9ba"
+        },
+        {
+          "path": ".mamut/artifacts/f680f47372674ed236bb70fe507eb7aec7bd829dd1001212cf50b452ce80442f/mamut-routing-tools-source.tar.gz",
+          "scope": "file",
+          "sha256": "f680f47372674ed236bb70fe507eb7aec7bd829dd1001212cf50b452ce80442f"
+        },
+        {
+          "path": ".mamut/artifacts/75f09b78c3ca928b70c02c68844ab3629bed22fe63b1a69435ff71490fb8aee7/mamut_routing_tools-0.7.0.dev0-py3-none-any.whl",
+          "scope": "file",
+          "sha256": "75f09b78c3ca928b70c02c68844ab3629bed22fe63b1a69435ff71490fb8aee7"
+        },
+        {
+          "path": ".mamut/artifacts/21efc05188bca2b25987b5bd302a87169680b8aa234daa6e77b73e6c1c457197/materialization-environment-linux-x86_64.json",
+          "scope": "file",
+          "sha256": "21efc05188bca2b25987b5bd302a87169680b8aa234daa6e77b73e6c1c457197"
+        },
+        {
+          "path": ".mamut/artifacts/5422d97e42fbe65ca63877aeb5158eb9745e2e462eb70f68ea843520f0501a66/Blauth2024-bonndata-v1.json",
+          "scope": "file",
+          "sha256": "5422d97e42fbe65ca63877aeb5158eb9745e2e462eb70f68ea843520f0501a66"
+        }
+      ],
+      "callable": "mamut_routing_tools.conversion.blauth2024.convert_instance",
+      "parameters": {
+        "city": "sao_paulo",
+        "n": 2000,
+        "output_decompressed_sha256": "6b3ca7c2e94ddcd3f9e848ec0f1e73b16258ca5e2aa00ccfa3c95a367e0af27b",
+        "output_path": "sidecars/n=2000/Blauth-sao_paulo.atf.json.gz",
+        "output_root": ".",
+        "upstream_commit_from": "metadata.generator.upstream_commit",
+        "upstream_files": [
+          {
+            "archive_member": "vrptdt-benchmark-main/instances/sao_paulo_2000.json",
+            "path": "instances/sao_paulo_2000.json",
+            "scope": "file",
+            "sha256": "2d2166144a056f3c3f511b2adf496e572949c24650dbdd94aff4f1130bed120b",
+            "uri": "https://bonndata.uni-bonn.de/api/access/datafile/5896"
+          },
+          {
+            "archive_member": "vrptdt-benchmark-main/instances/sao_paulo_2000_tt.json.bz2",
+            "path": "instances/sao_paulo_2000_tt.json.bz2",
+            "scope": "file",
+            "sha256": "a967da170a5d6837ef287c9f3a14a06ab9d318b39c9c5333746fdafcb90faf19",
+            "uri": "https://bonndata.uni-bonn.de/api/access/datafile/5896"
+          }
+        ],
+        "upstream_root": ".mamut/external/vrptdt-benchmark"
+      }
+    }
+  },
+  "objective": "FleetCostDuration",
+  "problem": "TDVRPTW",
+  "sidecars": [],
+  "specification": "mamut-routing/0.1-review",
+  "units": {
+    "cost": "millisecond",
+    "time": "millisecond"
+  }
+}
