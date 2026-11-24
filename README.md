@@ -34,9 +34,9 @@ This layout is read by `mamut-routing-lib` 0.13 and later, which is in developme
 
 ## Objective: FleetCostDuration
 
-Best-known solutions are published under the `FleetCostDuration` objective: `cost = sum of route durations + F * K` with K the number of routes and `F = fleet_fixed_cost = 36000000 ms` (10 hours) carried by each instance. Route durations are the canonical checker's per-route optimal durations (each route's depot departure time is a decision variable, exactly as in the `Duration` objective). This reproduces the upstream dollar objective ($200 per vehicle plus $20 per working hour) exactly: **cost in $ = cost_ms / 180000**. All breakpoints are integer milliseconds, so checker costs are exact.
+Best-known solutions are published under the `FleetCostDuration` objective: `cost = sum of route durations + F * K` with K the number of routes and `F = fleet_fixed_cost = 36000000 ms` (10 hours) carried by each instance. Route durations are the canonical checker's per-route optimal durations (each route's depot departure time is a decision variable, exactly as in the `Duration` objective). This reproduces the upstream dollar objective ($200 per vehicle plus $20 per working hour) exactly: **cost in $ = cost_ms / 180000**. The source breakpoints use integer milliseconds. Interpolating between them can produce fractional times.
 
-BKS sidecars are named `<Name>.bks.FleetCostDuration.json`. Costs are always the authoritative output of the canonical checker (`mamut_routing_lib.td.check_td_solution`, mamut-routing-lib >= 0.12.0, checker contract `td-fold/2`, exact IEEE-754 arithmetic, no epsilons).
+BKS sidecars are named `<Name>.bks.FleetCostDuration.json`. Edition `r1` uses `td-binary64-exact-v1`. The checker evaluates the materialized binary64 arc data with exact rational arithmetic and records each route's minimum duration and earliest departure attaining it. The certified solution cost is the fraction in `metadata.standard.authoritative_cost`. The top-level `cost` is its binary64 display.
 
 ## Hosting: n=10 and n=500 complete, n=1000 and n=2000 without the ATF sidecar
 
