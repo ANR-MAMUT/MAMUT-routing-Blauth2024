@@ -223,9 +223,9 @@
                     }
                 }
             ],
-            "specification": "mamut-routing/0.1-review",
+            "specification": "mamut-routing/0.1",
             "benchmark_revision": "r1",
-            "manifest_sha256": "55435ac9d6eec15a688d5a18abfbe408cd5d413e423ee554decf8a9afe06a03d"
+            "manifest_sha256": "cc8c58ce3d439be0f5490a463ca9fb9d9672b8ed2f818d09bcda938a282c1c26"
         }
     },
     "objective_function": "FleetCostDuration"

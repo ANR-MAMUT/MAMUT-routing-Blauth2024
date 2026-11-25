@@ -5,248 +5,248 @@
   "manifest_archive": {
     "path": ".mamut/editions/r1-manifests.tar.gz",
     "scope": "file",
-    "sha256": "56c87fe5ff37bd96a580c5177e26ce3b642b5a880a11f4073498597b39b6272e"
+    "sha256": "417ad9671eb04b9efd858e3e249a146fba0d524f7e6ba2fd66d4e162e13b861f"
   },
   "records": [
     {
       "instance": "TDVRPTW/n=10/Blauth-berlin.vrp.json",
       "instance_sha256": "56dfeefc79b18594d8336c031318852f90b17432de9f8acde936784f2c2abd8b",
       "manifest": "TDVRPTW/n=10/Blauth-berlin.manifest.json",
-      "manifest_sha256": "2fb2e6b1de7edc806f8622481fd5d50d89606611a79510176915dd55344f9d1d"
+      "manifest_sha256": "803978c1fddf56863aa73cb3ebae38ccb2c5b195f5d9b0c8428747e5df348760"
     },
     {
       "instance": "TDVRPTW/n=10/Blauth-cincinnati.vrp.json",
       "instance_sha256": "4d6464d8efc87f3d65faa34bcbf11c2ccd8ed14bd1b3e8cfded92c41afa4902c",
       "manifest": "TDVRPTW/n=10/Blauth-cincinnati.manifest.json",
-      "manifest_sha256": "4ca72620a5d90f66cb7220f75ab17d8b405a742f1eeff7d5b00039601e8bdb58"
+      "manifest_sha256": "2f1384d466a084ed59ad100bbf4e7143f6efb557847b0ae26f91c9a068b3a250"
     },
     {
       "instance": "TDVRPTW/n=10/Blauth-kyiv.vrp.json",
       "instance_sha256": "daf32e933fc4403405b758f885a096d49855e394a19c69777dfa3a9f56a0a239",
       "manifest": "TDVRPTW/n=10/Blauth-kyiv.manifest.json",
-      "manifest_sha256": "20655955cbb0a14868c497d5ced21fb05ee94883934dd6f83598004347993911"
+      "manifest_sha256": "dc65c7d3081d8da81bfbe6a25d7a2e3d49f0e09d95b17705b46ff76c2ab41af4"
     },
     {
       "instance": "TDVRPTW/n=10/Blauth-london.vrp.json",
       "instance_sha256": "e36051f31c2d96fd26bcbad495ba12ce5f597211cc38a4f0118093441a822624",
       "manifest": "TDVRPTW/n=10/Blauth-london.manifest.json",
-      "manifest_sha256": "07349fdb1ffd0d482ff99b98dc1b5933c43178d860f10e95bda692042c5295fe"
+      "manifest_sha256": "8235746ce9881c81294fb7e600122040f8ac122fa58372c2a2941ef4f6a22277"
     },
     {
       "instance": "TDVRPTW/n=10/Blauth-madrid.vrp.json",
       "instance_sha256": "e7a9519c60af2fb1684e954a73c5d89e56ba6176a6a0366a1c425677ce890b09",
       "manifest": "TDVRPTW/n=10/Blauth-madrid.manifest.json",
-      "manifest_sha256": "c31fe229e7ad9d08e7a228767362ebe2367446e9bffe91cae91fddb1ea92e96f"
+      "manifest_sha256": "41834f165308e33367870b3190c0a8f96c0448eb70d8e77586ef8d3e723ff5ee"
     },
     {
       "instance": "TDVRPTW/n=10/Blauth-nairobi.vrp.json",
       "instance_sha256": "f18fe5b60570a615d57ceea0eb0ae2c5a47463d68309e758d90e90846f117ef7",
       "manifest": "TDVRPTW/n=10/Blauth-nairobi.manifest.json",
-      "manifest_sha256": "796968ee2974217d708cc3a2e0f649d7a7bf9de1f6488e588889b91f033db444"
+      "manifest_sha256": "a6e8c7043630ae160269469c83b52ae61e9fdb0bacf296f2c235124ec6fb3f1e"
     },
     {
       "instance": "TDVRPTW/n=10/Blauth-new_york.vrp.json",
       "instance_sha256": "b9f9fa189a89595ed1a09421ee840ca359353a49d0cd38f4a536d7fa42f00df2",
       "manifest": "TDVRPTW/n=10/Blauth-new_york.manifest.json",
-      "manifest_sha256": "814e505ea186108257540534cc5e17245b460b88a6ac73db2e89d714405ac7cf"
+      "manifest_sha256": "484f789c13fcfbb4e3f23b97f1b82b50d34dfb0a919b0724029c685c057d505c"
     },
     {
       "instance": "TDVRPTW/n=10/Blauth-san_francisco.vrp.json",
       "instance_sha256": "f74a08303b527b61169cd827a17fa19fd06c75f7f94cc7e4ef248605c29f0ad3",
       "manifest": "TDVRPTW/n=10/Blauth-san_francisco.manifest.json",
-      "manifest_sha256": "cce8524a420573da8f49fa350bf442a2d7756db973363ec64c6ed2ae198738e1"
+      "manifest_sha256": "d46c84a0298c89cf26834cbb85a029f53413867457947be0a5a8b8eaf7d8c603"
     },
     {
       "instance": "TDVRPTW/n=10/Blauth-sao_paulo.vrp.json",
       "instance_sha256": "c81ab84c8c9abe8f149bc1e93854941a2917ddf200f72fdc6bdddde33b49f23f",
       "manifest": "TDVRPTW/n=10/Blauth-sao_paulo.manifest.json",
-      "manifest_sha256": "d0b41a650502353e93a3a129df17e6d5cfcb380f0a91d1e87c502b08f17fb029"
+      "manifest_sha256": "41879a74e0d7607bb5bc5db9d8c689f68412d86162491fd1cf1ebdc70c66b3c7"
     },
     {
       "instance": "TDVRPTW/n=10/Blauth-seattle.vrp.json",
       "instance_sha256": "79f915f67f3278e29ce7d94c1d95e6bf680bf7b61f0b70b72ab18ff0e8a54659",
       "manifest": "TDVRPTW/n=10/Blauth-seattle.manifest.json",
-      "manifest_sha256": "a50315008117fb237f8ab6ffcf41727b1cba473571826df62166c7b75b2eb4ca"
+      "manifest_sha256": "2cca8b30faeb3cf036b2a68d90bc4f39f1fd5a40d6d9c71cb774d78222e324db"
     },
     {
       "instance": "TDVRPTW/n=1000/Blauth-berlin.vrp.json",
       "instance_sha256": "50aad030e3a1070eb300ce8fc75330d41e6cafbef12edf9fe8f46d049855494e",
       "manifest": "TDVRPTW/n=1000/Blauth-berlin.manifest.json",
-      "manifest_sha256": "4673ee4a212a073f9cdac5c1d1db71fee0a897b52ab5adc60581d0561bd9021c"
+      "manifest_sha256": "8b42bc09555701d54cc584c655023def30ca36a0bc3cba0ba861adebf06261f6"
     },
     {
       "instance": "TDVRPTW/n=1000/Blauth-cincinnati.vrp.json",
       "instance_sha256": "e5579919d91a1a5a8b08b5185606bdfa3a668e4a1a878c14c18435d621f6420e",
       "manifest": "TDVRPTW/n=1000/Blauth-cincinnati.manifest.json",
-      "manifest_sha256": "6df6a31c95fef566db5aa80ac845d8259048560421095650346757005190f50a"
+      "manifest_sha256": "a9baf8ea1bef0442d86def13494d2942cd7553cbc18a4ec3225898fc286801b7"
     },
     {
       "instance": "TDVRPTW/n=1000/Blauth-kyiv.vrp.json",
       "instance_sha256": "c6f32709ff9d0708a3f6f5a6f3f469b8a72a27b4924623d75af4f509ac8f9f60",
       "manifest": "TDVRPTW/n=1000/Blauth-kyiv.manifest.json",
-      "manifest_sha256": "b051e4b3e64277c3c7c23ced956b7f1d6803f72c8c2c79ac5fb73cb2e67bdb30"
+      "manifest_sha256": "6aa34ad897d854b15b058c49694ab7f1245ed557a081f95159effcb876ccdc44"
     },
     {
       "instance": "TDVRPTW/n=1000/Blauth-london.vrp.json",
       "instance_sha256": "5777fd7da69fc0926694ab1f346a50fbbcbdd71d996ff4187118490042f0fd7e",
       "manifest": "TDVRPTW/n=1000/Blauth-london.manifest.json",
-      "manifest_sha256": "e0ae3ddca96fd564c861c9e0f21aa0aacb7f4ad7b3bd49acd6ffee19e10258e4"
+      "manifest_sha256": "06773d3fd48cc9f6d5d247506891a5b5e5eefafc9101897eec0a801f7ac43401"
     },
     {
       "instance": "TDVRPTW/n=1000/Blauth-madrid.vrp.json",
       "instance_sha256": "9e054306ba4d68b6daf4d51ff9a881e13e71235e1b35e1421891e509c016eb28",
       "manifest": "TDVRPTW/n=1000/Blauth-madrid.manifest.json",
-      "manifest_sha256": "ea4b1e09ec0e96d093a17689721d4e388e929f0b444e506f09b04b8be56ca6a0"
+      "manifest_sha256": "8ffad9e72788ca95ec9ca9a88e17fe6d6551f73f29163eca07b0e40eb0c9bfd4"
     },
     {
       "instance": "TDVRPTW/n=1000/Blauth-nairobi.vrp.json",
       "instance_sha256": "fcff409494056a1f5b561f69e2f333e7c0b4ff7f50f6f883d7eb0e45e62875a2",
       "manifest": "TDVRPTW/n=1000/Blauth-nairobi.manifest.json",
-      "manifest_sha256": "55435ac9d6eec15a688d5a18abfbe408cd5d413e423ee554decf8a9afe06a03d"
+      "manifest_sha256": "cc8c58ce3d439be0f5490a463ca9fb9d9672b8ed2f818d09bcda938a282c1c26"
     },
     {
       "instance": "TDVRPTW/n=1000/Blauth-new_york.vrp.json",
       "instance_sha256": "f57ad4e246ccb8dc8f366bbfa6143bf2afa67004427bbdd48cab8da8a8930f7e",
       "manifest": "TDVRPTW/n=1000/Blauth-new_york.manifest.json",
-      "manifest_sha256": "92282d517a6ef30fac62c738ab0285a67f3d400c84993c408f6ad2219c8c158e"
+      "manifest_sha256": "26a9ba17c2d45dd6d353c1ae49b80d09fc3273f40e4d5e9e0db0b9a11e0bde8f"
     },
     {
       "instance": "TDVRPTW/n=1000/Blauth-san_francisco.vrp.json",
       "instance_sha256": "4944fe9853d50fbeb8b0039e6fd3bc50654eda3f629f942e7439d01bef84afe6",
       "manifest": "TDVRPTW/n=1000/Blauth-san_francisco.manifest.json",
-      "manifest_sha256": "41867e5a0e15f9c0e6aba3a93654070280babc9c6fe2c1f722349d204bd9475e"
+      "manifest_sha256": "2d31edde665190dd9e3c8039cb08f6da1d10ede9773f40887ba63f90210c8423"
     },
     {
       "instance": "TDVRPTW/n=1000/Blauth-sao_paulo.vrp.json",
       "instance_sha256": "1456b5a8d39d9f3e6b6dfe9525effaed9723a06ab4ab56f7bd0f4c8d703e340b",
       "manifest": "TDVRPTW/n=1000/Blauth-sao_paulo.manifest.json",
-      "manifest_sha256": "ea2ea75e59bc9654c0591753e58a4d5a46052beb5e929c736a330702db0e0359"
+      "manifest_sha256": "477760892989b95611c2fec317a158341e764b8cf01e7aa1ac4d9921f69584e9"
     },
     {
       "instance": "TDVRPTW/n=1000/Blauth-seattle.vrp.json",
       "instance_sha256": "49c097c2a4b70f74133a21bbc7a3d7914b90a115c5578f90e206ebdeca5f2a52",
       "manifest": "TDVRPTW/n=1000/Blauth-seattle.manifest.json",
-      "manifest_sha256": "83c2a871c7a6f08668cb8d0c6a646963e5b1f46e5d70ecc64def8d7ca5fec9c4"
+      "manifest_sha256": "d2027db104738f7aa242cdf9f894e243b9a70abe3cbd8d9de6e9aedab5052dd7"
     },
     {
       "instance": "TDVRPTW/n=2000/Blauth-berlin.vrp.json",
       "instance_sha256": "0ea2f37d864b717006e9c5f389640d1726f4bd468521feec7b7c6aa185d004b8",
       "manifest": "TDVRPTW/n=2000/Blauth-berlin.manifest.json",
-      "manifest_sha256": "9a5c19d37ae987b9224e440b7c54031490d7c2f6f41e04a221fbe0c902d353fa"
+      "manifest_sha256": "cbca34cd6266ef3fc6a1cbf7fa0b42176e936402ccb7632825ed538d923c9ec6"
     },
     {
       "instance": "TDVRPTW/n=2000/Blauth-cincinnati.vrp.json",
       "instance_sha256": "7e356cd733e272d2fd7914e0f10c27d646160bf08657c9348c7720240765cd17",
       "manifest": "TDVRPTW/n=2000/Blauth-cincinnati.manifest.json",
-      "manifest_sha256": "3f0628cbd637a60e6ab17bf8d69566a13c7424abc354bae0f23be0896b7d60d8"
+      "manifest_sha256": "09ce7b1af7f862f9fc0789338f060a29fd721e8972157211c917fd9d148021ee"
     },
     {
       "instance": "TDVRPTW/n=2000/Blauth-kyiv.vrp.json",
       "instance_sha256": "6f4f96fdefccbd0a05c03d7ed905e684fe002645354bea50c922ef8452f03caa",
       "manifest": "TDVRPTW/n=2000/Blauth-kyiv.manifest.json",
-      "manifest_sha256": "c1d886381293b052027b5fb586e00681765dd68e490dd60e81834b3d0f8c33a3"
+      "manifest_sha256": "f1fcd7ddb9dffcd4541ae39e565fb2afb3af193626fa2d55afe31928b353ed7c"
     },
     {
       "instance": "TDVRPTW/n=2000/Blauth-london.vrp.json",
       "instance_sha256": "15240cf6ab26496f80786fb22f563a95b6639bf3971d637fc65081e1bd9c20fe",
       "manifest": "TDVRPTW/n=2000/Blauth-london.manifest.json",
-      "manifest_sha256": "4da080af3b80ba4d031d428d31c81b66d4ca6aa86717bcc64fb8942ae39a1a46"
+      "manifest_sha256": "d5118621f9505ccaec3c70b62f6b3b3fbf0cb6f2b0e826ad09fd7836ae8531f6"
     },
     {
       "instance": "TDVRPTW/n=2000/Blauth-madrid.vrp.json",
       "instance_sha256": "15dfabe1c76f6ce235ebad52be637e2cff1c2bf0436a1eb78d9a83966c3495aa",
       "manifest": "TDVRPTW/n=2000/Blauth-madrid.manifest.json",
-      "manifest_sha256": "7aa1a42169ec54a8fe2251c6a958e7cb386681ed9499fe20f55dbc39097f3b1f"
+      "manifest_sha256": "6ba6757b2c650b2b820d97b60830be6d1c84ad3dd1fb665365d83c5839d8b59d"
     },
     {
       "instance": "TDVRPTW/n=2000/Blauth-nairobi.vrp.json",
       "instance_sha256": "4e8fe8e43818cb59d6140e4982443819d353f6f4e5fd5ffe8e0e28f0dbf82757",
       "manifest": "TDVRPTW/n=2000/Blauth-nairobi.manifest.json",
-      "manifest_sha256": "f14550f30cd0932a77e256f9812da15054f8efc881a729128008bff8116b6e27"
+      "manifest_sha256": "6e233ef8a1dc850c427e65d3b9f392fd1db740fe43d3e3d27607c8bdd02c31b1"
     },
     {
       "instance": "TDVRPTW/n=2000/Blauth-new_york.vrp.json",
       "instance_sha256": "26b5dcb28c50ce466efd282129277b6dc002e41a95c53b262ee38e9476a45dc3",
       "manifest": "TDVRPTW/n=2000/Blauth-new_york.manifest.json",
-      "manifest_sha256": "60915d1cda33cca800bd905f721c5a763603ad71d8f9844e693e4dd69ee87f4e"
+      "manifest_sha256": "6d2e56e9d242a527c5d0b6811837fb7c08b02a69de563e55f72dc7255256c9a2"
     },
     {
       "instance": "TDVRPTW/n=2000/Blauth-san_francisco.vrp.json",
       "instance_sha256": "2e3aa01d533f884c08ff6d5f71d16488c5f57544ec4ff2f16c808a6c6bdd44d7",
       "manifest": "TDVRPTW/n=2000/Blauth-san_francisco.manifest.json",
-      "manifest_sha256": "7a897de8538a7a4215939647957b71fafc2a5cb253e5da7121e194b9971efd4a"
+      "manifest_sha256": "8bfcb1c4958e10f552587077cf1e7d5771ea2f89e8bae1f6e576d9f76e4146d3"
     },
     {
       "instance": "TDVRPTW/n=2000/Blauth-sao_paulo.vrp.json",
       "instance_sha256": "e9d5d098a1e4f1c7540615b1c6163f45d8a1f9d534b059997580efa54c5e8305",
       "manifest": "TDVRPTW/n=2000/Blauth-sao_paulo.manifest.json",
-      "manifest_sha256": "fd491cc30d269eff4ccea99f788b532b37a683489a84c39a29b1e026ae385a0b"
+      "manifest_sha256": "7f3ac1a41740d7fd50af6aa91546522081e112b97754d89a0399c0b92b498961"
     },
     {
       "instance": "TDVRPTW/n=2000/Blauth-seattle.vrp.json",
       "instance_sha256": "cf814caebeaadcafd0c95a7fb930d9d15b77db54060eb44834143ba1b4e4cd54",
       "manifest": "TDVRPTW/n=2000/Blauth-seattle.manifest.json",
-      "manifest_sha256": "9337b34a2ff914157f29ddd0e6f325deabd62e7066cfcbc81ce49ec0b3c371c6"
+      "manifest_sha256": "14a8f65da93b551fab8652243923f18271cf82e693ff460e0b7e51fd43ab983d"
     },
     {
       "instance": "TDVRPTW/n=500/Blauth-berlin.vrp.json",
       "instance_sha256": "0f47db63a4df214085a072add4b2eb9b43045119aa8aa034e5048e5c86ee05d7",
       "manifest": "TDVRPTW/n=500/Blauth-berlin.manifest.json",
-      "manifest_sha256": "76e42e0a7beab84357ecad5597133c21346af72bed038178483e776906b8182e"
+      "manifest_sha256": "cfb8fed0c0438d40a867a649802d3cc0d0a7600a774bfda41d4b05c1cc2ac231"
     },
     {
       "instance": "TDVRPTW/n=500/Blauth-cincinnati.vrp.json",
       "instance_sha256": "4c7fa578dd1b76135f979883659eb173dc90dc59e787d6b3ea564ccb81f31280",
       "manifest": "TDVRPTW/n=500/Blauth-cincinnati.manifest.json",
-      "manifest_sha256": "dc4a001fc98919cac5b6f707b1d41601523582714e16704a431ca9aa129764e4"
+      "manifest_sha256": "695bc2f9b575488342af70e63ca2481d1a1e1c54dccc9d142ad23ce095ac0380"
     },
     {
       "instance": "TDVRPTW/n=500/Blauth-kyiv.vrp.json",
       "instance_sha256": "bbab52e6e8da824bf771fb7efcebe4bc879c184884f81201345efbc3ce7bc07e",
       "manifest": "TDVRPTW/n=500/Blauth-kyiv.manifest.json",
-      "manifest_sha256": "8a546e34fd02ae6c21dff019d9e24561f05430013cfd31f95cf4abb63fcb9710"
+      "manifest_sha256": "aab60e817418b279f5bd7797e5f0e6b178f973950e073b8ad6b7c6a08c0e83d8"
     },
     {
       "instance": "TDVRPTW/n=500/Blauth-london.vrp.json",
       "instance_sha256": "959e363939d823ece29b050b7352a88c43d26e2712e9a73bf8c95e367ff3ade4",
       "manifest": "TDVRPTW/n=500/Blauth-london.manifest.json",
-      "manifest_sha256": "77e2af1e53a9e38afb580ced0f3964aa7fb65b9566bee3ff1eec4903b50d5c84"
+      "manifest_sha256": "909bac86ffdff906683a69d7865ab8e353a9b9087208bd749c2cc855be7de7f8"
     },
     {
       "instance": "TDVRPTW/n=500/Blauth-madrid.vrp.json",
       "instance_sha256": "eeb36305fdb4a2406222875cd71a69074064844f22b269741c2132d03033c4a5",
       "manifest": "TDVRPTW/n=500/Blauth-madrid.manifest.json",
-      "manifest_sha256": "ec36da5ec5e7e7ca8016d6cb4b7ef5ae16989d47e6451059b8f67ba1a46c1810"
+      "manifest_sha256": "361b94e8e744b90743aea97c3e8186847830c032be346ac0d8cf90710303234a"
     },
     {
       "instance": "TDVRPTW/n=500/Blauth-nairobi.vrp.json",
       "instance_sha256": "28ac6bc6b606ba9356f616fc2de6a9ec3085256ef35ee3b96eb375d2600d4b35",
       "manifest": "TDVRPTW/n=500/Blauth-nairobi.manifest.json",
-      "manifest_sha256": "bdf73df55ba000eea15155df2751becb9880ba4f4a14014980f3a54b15b5a961"
+      "manifest_sha256": "724fb4d1edc5127e0602e6c220aab8501e5c1c68f83728efba05a8394dae0b1a"
     },
     {
       "instance": "TDVRPTW/n=500/Blauth-new_york.vrp.json",
       "instance_sha256": "cb7e0f8805e5389735782f19d0fd0c1d373ee33c9af022b3a0e33abe94fcf6ca",
       "manifest": "TDVRPTW/n=500/Blauth-new_york.manifest.json",
-      "manifest_sha256": "95505684cc5a6875a321630a97ab3f3e7cd7cfa40311e80727bb72778167092d"
+      "manifest_sha256": "76434c55c410ca2cccbc287d1b6456e974e10d9b450b653647a3b5b3415a012a"
     },
     {
       "instance": "TDVRPTW/n=500/Blauth-san_francisco.vrp.json",
       "instance_sha256": "099d652d8ea656c6f589b200c0ff9f81c44c17f0aef888e284b7b2d5c858d057",
       "manifest": "TDVRPTW/n=500/Blauth-san_francisco.manifest.json",
-      "manifest_sha256": "16bcbbaa41a3d47d396aebf14166763f02d3bdab6f36617361a08c7ff77ede24"
+      "manifest_sha256": "72e6007bfae62b482d61a881896a0ae8ab7ca63460375bf117b67d9e24b19fa1"
     },
     {
       "instance": "TDVRPTW/n=500/Blauth-sao_paulo.vrp.json",
       "instance_sha256": "207f48f47e51ac5e8760944888319521be5606e60f6a58a18389d2a3b0e4c258",
       "manifest": "TDVRPTW/n=500/Blauth-sao_paulo.manifest.json",
-      "manifest_sha256": "8d700833f48bf396033c1297b0117575984f9500f0a9e7c9bcdabbd866edcb9e"
+      "manifest_sha256": "932f84b4faadc4c04e60a5b630d3b9407bfd21f21646c54c8246d14f1c16f599"
     },
     {
       "instance": "TDVRPTW/n=500/Blauth-seattle.vrp.json",
       "instance_sha256": "482c827ce137e5f1ec9d99470ee36d42f56110e2b32b3739a30153ad0258c94a",
       "manifest": "TDVRPTW/n=500/Blauth-seattle.manifest.json",
-      "manifest_sha256": "8b3611fd5fe671ebc83b4e78252c69bf584986d53b4d49fd0893f96283f7ca21"
+      "manifest_sha256": "8a79490ea1aab655ba342e541427bf8788fcaef1329304e5bf25a189bfaf3180"
     }
   ]
 }
