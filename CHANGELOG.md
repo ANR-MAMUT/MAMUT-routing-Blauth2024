@@ -1,6 +1,13 @@
 # Changelog: Blauth2024 benchmark family
 
-All notable changes to the Blauth2024 family are recorded here. The first entry records the creation of this repository. The section after it holds the changelog of the former repository. It keeps every entry, fact, date, count and commit reference, with the wording edited for style and the headings moved 2 levels down.
+All notable changes to the Blauth2024 family are recorded here. The November 2026 family-repository entry records the creation of this repository. The following section holds the changelog of the former repository. It keeps every entry, fact, date, count and commit reference, with the wording edited for style and the headings moved 2 levels down.
+
+## 2026-11-26. Improvements to 14 FleetCostDuration records
+
+A 12-hour warm-start comparison across 10 cities at 500 and 1,000 customers improved 14 records at the same fleet sizes. Under the r1 manifests for `mamut-routing/0.1`, the native evaluator and the independent Python Fraction evaluator agreed on the costs, route durations and earliest departures of the new and previous solutions. Each record identifies its arm, seed, starting solution and [Kayros development revision](https://github.com/0nyr/kayros/commit/73199012a52fb90544a3d14bf56490f865951047).
+
+- At 500 customers, the five improved records are Cincinnati, Nairobi, New York, São Paulo and Seattle.
+- At 1,000 customers, the nine improved records are Berlin, Cincinnati, Kyiv, London, Madrid, Nairobi, New York, São Paulo and Seattle.
 
 ## 2026-11: family repository
 
